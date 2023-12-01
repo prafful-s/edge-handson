@@ -13,5 +13,5 @@ anchorElement.title = block.firstElementChild.firstElementChild.innerText;
 anchorElement.html = block.firstElementChild.firstElementChild.innerText;
 paraElement.className='button-container';
 paraElement.append(anchorElement);
-block.append(block);
+block.append(paraElement);
 }
